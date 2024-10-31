@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComputeElipsArea", "ComputeElipsArea.csproj", "{88051307-4887-4F86-A936-461D5BCA4195}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingComputeElipsProperties", "..\UsingComputeElipsProperties\UsingComputeElipsProperties.csproj", "{845BB67F-CD8B-4BAF-A96D-D9581E0129E0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{773162A9-2160-4C14-A165-98B6FADBFF57} = {773162A9-2160-4C14-A165-98B6FADBFF57}
+		{837544DD-E2EF-4CF5-A079-2A61E569DDD1} = {837544DD-E2EF-4CF5-A079-2A61E569DDD1}
+		{88051307-4887-4F86-A936-461D5BCA4195} = {88051307-4887-4F86-A936-461D5BCA4195}
+		{FC305CAD-1390-4553-B58F-B388EB6B254F} = {FC305CAD-1390-4553-B58F-B388EB6B254F}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComputeElipsPerimeter", "..\ComputeElipsPerimeter\ComputeElipsPerimeter.csproj", "{837544DD-E2EF-4CF5-A079-2A61E569DDD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputeElipsEdges", "..\CalculateElipsEdges\ComputeElipsEdges.csproj", "{773162A9-2160-4C14-A165-98B6FADBFF57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputeElipsEquation", "..\ComputeElipsEquation\ComputeElipsEquation.csproj", "{FC305CAD-1390-4553-B58F-B388EB6B254F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88051307-4887-4F86-A936-461D5BCA4195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88051307-4887-4F86-A936-461D5BCA4195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88051307-4887-4F86-A936-461D5BCA4195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88051307-4887-4F86-A936-461D5BCA4195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{845BB67F-CD8B-4BAF-A96D-D9581E0129E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{845BB67F-CD8B-4BAF-A96D-D9581E0129E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{845BB67F-CD8B-4BAF-A96D-D9581E0129E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{845BB67F-CD8B-4BAF-A96D-D9581E0129E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{837544DD-E2EF-4CF5-A079-2A61E569DDD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{837544DD-E2EF-4CF5-A079-2A61E569DDD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{837544DD-E2EF-4CF5-A079-2A61E569DDD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{837544DD-E2EF-4CF5-A079-2A61E569DDD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{773162A9-2160-4C14-A165-98B6FADBFF57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{773162A9-2160-4C14-A165-98B6FADBFF57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{773162A9-2160-4C14-A165-98B6FADBFF57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{773162A9-2160-4C14-A165-98B6FADBFF57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC305CAD-1390-4553-B58F-B388EB6B254F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC305CAD-1390-4553-B58F-B388EB6B254F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC305CAD-1390-4553-B58F-B388EB6B254F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC305CAD-1390-4553-B58F-B388EB6B254F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5691A358-6D9D-4F14-A75A-F3F7BDA10492}
+	EndGlobalSection
+EndGlobal
